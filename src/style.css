@@ -1,7 +1,14 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./opensans-regular-webfont.woff2') format('woff2');
+}
+
 .topHeading {
   padding: 20px;
   margin: 10px;
   border: 5px solid #4A3;
+  font-family: 'MyFont';
+  font-size: 2em;
 }
 
 img {
