@@ -73,14 +73,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__chatacter_00_small_jpg__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__chatacter_00_small_jpg___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__chatacter_00_small_jpg__);
+
 
 
 
 function component() {
-  var heading = document.createElement("h1")
-  heading.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Development', 'Webpack'], ' - ')
-  heading.classList.add('topHeading')
-  return heading
+  var element = document.createElement('div')
+  element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Development', 'Webpack'], ' - ')
+  element.classList.add('topHeading')
+
+  // add image to existing div
+  var myImg = new Image()
+  myImg.src = __WEBPACK_IMPORTED_MODULE_2__chatacter_00_small_jpg___default.a
+
+  element.appendChild(myImg)
+
+  return element
 }
 
 document.body.appendChild(component())
@@ -17272,7 +17282,7 @@ exports = module.exports = __webpack_require__(6)(undefined);
 
 
 // module
-exports.push([module.i, ".topHeading {\r\n  padding: 20px;\r\n  margin: 10px;\r\n  border: 5px solid #4A3;\r\n}", ""]);
+exports.push([module.i, ".topHeading {\r\n  padding: 20px;\r\n  margin: 10px;\r\n  border: 5px solid #4A3;\r\n}\r\n\r\nimg {\r\n  border: 1px solid #555;\r\n  margin: 12px;\r\n}", ""]);
 
 // exports
 
@@ -17812,6 +17822,12 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "4edb30d3dca2b0b909cacc6c28037313.jpg";
 
 /***/ })
 /******/ ]);

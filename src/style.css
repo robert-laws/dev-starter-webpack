@@ -3,3 +3,8 @@
   margin: 10px;
   border: 5px solid #4A3;
 }
+
+img {
+  border: 1px solid #555;
+  margin: 12px;
+}
