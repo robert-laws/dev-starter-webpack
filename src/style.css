@@ -11,6 +11,10 @@
   font-size: 2em;
 }
 
+pre {
+  font-size: 0.5em;
+}
+
 img {
   border: 1px solid #555;
   margin: 12px;
