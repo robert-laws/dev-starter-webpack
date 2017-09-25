@@ -8,3 +8,9 @@ img {
   border: 1px solid #555;
   margin: 12px;
 }
+
+.root {
+  width: 480px;
+  height: 200px;
+  background: url('./chatacter_00_small.jpg')
+}
