@@ -20,7 +20,7 @@ function component() {
   var preElement = document.createElement('pre')
   preElement.innerHTML = [
     'Hello webpack!!',
-    '5 cubed is equal to ' + cube(5)
+    '7 cubed is equal to ' + cube(7)
   ].join('\n\n');
 
   element.appendChild(preElement)
